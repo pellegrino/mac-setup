@@ -1,0 +1,7 @@
+
+package foreign-env
+package fzf
+package nvm
+package virtualfish
+package z
+theme default
