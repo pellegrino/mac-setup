@@ -13,3 +13,8 @@ New Mac setup. Using YADM for managing the dotfiles. Starting from scratch
 ```
 brew install yadm
 ```
+
+- Clone mac setup 
+```
+yadm clone git@github.com:pellegrino/mac-setup -b main
+```
