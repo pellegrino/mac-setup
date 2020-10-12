@@ -3,6 +3,14 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Extendable version manager with support for Ruby, Node.js, Erlang & more
+brew "asdf"
+# Configurable talking characters in ASCII art
+brew "cowsay"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 # CLI tool for quick access to files and directories
@@ -13,12 +21,18 @@ brew "fish"
 brew "fortune"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# Distributed revision control system
+brew "git"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Manage your Java environment
 brew "jenv"
+# Clone of ls with colorful output, file type icons, and more
+brew "lsd"
 # Mac App Store command-line interface
 brew "mas"
 # Ambitious Vim-fork focused on extensibility and agility

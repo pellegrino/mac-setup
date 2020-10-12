@@ -1,7 +1,6 @@
 # Fish configuration file. Exported through oh-my-fish
 
 ### Variables
-# Golang developers might need this one
 set -xg GOPATH $HOME
 set -xg GPG_TTY (tty) 
 ### Path extensions
