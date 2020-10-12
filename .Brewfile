@@ -7,6 +7,8 @@ tap "homebrew/core"
 brew "coreutils"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
+# Official Amazon AWS command-line interface
+brew "awscli"
 # Configurable talking characters in ASCII art
 brew "cowsay"
 # Get a file from an HTTP, HTTPS or FTP server

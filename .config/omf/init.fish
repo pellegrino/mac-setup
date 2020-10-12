@@ -1,7 +1,7 @@
 # Fish configuration file. Exported through oh-my-fish
 
 ### Variables
-set -xg GOPATH $HOME
+#set -xg GOPATH $HOME
 set -xg GPG_TTY (tty) 
 ### Path extensions
 
@@ -13,7 +13,7 @@ set -x PATH $PATH $HOME/bin \
 	#$ANDROID_SDK_HOME/tools/bin \
 	$HOME/.jenv/bin \
 	$HOME/tools/adr-tools/src \
-	$GOPATH/bin \
+#	$GOPATH/bin \
 	$HOME/.cargo/bin \
 	$HOME/.local/bin 
 ### Init scripts
