@@ -1,21 +1,17 @@
 # Fish configuration file. Exported through oh-my-fish
 
 ### Variables
-#set -xg GOPATH $HOME
+set -xg GOPATH $HOME
 set -xg GPG_TTY (tty) 
+set -xg FLUTTER_PATH /usr/local/Caskroom/flutter/1.22.1/flutter
 ### Path extensions
 
 set -x PATH $PATH $HOME/bin \
-	# $ANDROID_SDK_HOME/cmdline-tools/tools \
-	#$ANDROID_SDK_HOME/cmdline-tools/tools/bin \
-	#$ANDROID_SDK_HOME/emulator \
-	#$ANDROID_SDK_HOME/platform-tools \
-	#$ANDROID_SDK_HOME/tools/bin \
 	$HOME/.jenv/bin \
 	$HOME/tools/adr-tools/src \
-#	$GOPATH/bin \
 	$HOME/.cargo/bin \
-	$HOME/.local/bin 
+	$HOME/.local/bin \
+	$FLUTTER_PATH/.pub-cache/bin
 ### Init scripts
 eval (direnv hook fish)
 

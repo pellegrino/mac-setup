@@ -1,3 +1,4 @@
+tap "dart-lang/dart"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -29,8 +30,6 @@ brew "git"
 brew "unbound"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
 # Manage your Java environment
 brew "jenv"
 # Clone of ls with colorful output, file type icons, and more
@@ -41,14 +40,21 @@ brew "mas"
 brew "neovim"
 # Manage multiple Node.js versions
 brew "nvm"
+# Protocol buffers (Google's data interchange format)
+brew "protobuf"
 # Terminal multiplexer
 brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Yet Another Dotfiles Manager
 brew "yadm"
+# The Dart SDK
+brew "dart-lang/dart/dart"
 cask "alacritty"
 cask "android-sdk"
 cask "corretto"
 cask "corretto8"
+cask "docker"
 cask "firefox"
 cask "flutter"
 cask "font-jetbrains-mono"
