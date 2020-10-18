@@ -4,6 +4,7 @@
 set -xg GOPATH $HOME
 set -xg GPG_TTY (tty) 
 set -xg FLUTTER_PATH /usr/local/Caskroom/flutter/1.22.1/flutter
+set -xg PROTO_DIR $asdf_data_dir/installs/protoc/3.13.0/include
 ### Path extensions
 
 set -x PATH $PATH $HOME/bin \
