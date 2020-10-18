@@ -1,0 +1,7 @@
+[user]
+	email = pellegrino@linux.com
+	name = Vitor Pellegrino
+[pull]
+	ff = only
+[core]
+	excludesfile = ~/.gitignore
