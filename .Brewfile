@@ -30,8 +30,6 @@ brew "git"
 brew "unbound"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
-# Manage your Java environment
-brew "jenv"
 # Clone of ls with colorful output, file type icons, and more
 brew "lsd"
 # Mac App Store command-line interface

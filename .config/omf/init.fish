@@ -9,7 +9,6 @@ set -xg PROTO_DIR $ASDF_DIR/installs/protoc/3.13.0/include
 ### Path extensions
 
 set -x PATH $PATH $HOME/bin \
-	$HOME/.jenv/bin \
 	$HOME/tools/adr-tools/src \
 	$HOME/.cargo/bin \
 	$HOME/.local/bin \
@@ -20,4 +19,3 @@ eval (direnv hook fish)
 fish_vi_key_bindings
 
 starship init fish | source
-jenv init - fish | source
