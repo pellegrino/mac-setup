@@ -5,6 +5,7 @@ set -xg GOPATH $HOME
 set -xg GPG_TTY (tty) 
 set -xg FLUTTER_PATH /usr/local/Caskroom/flutter/1.22.1/flutter
 set -xg ASDF_DIR $HOME/.asdf
+set -xg ASDF_DEFAULT_TOOL_VERSIONS_FILENAME ~/.config/asdf/tool-versions
 set -xg PROTO_DIR $ASDF_DIR/installs/protoc/3.13.0/include
 
 ### Path extensions
@@ -21,3 +22,5 @@ eval (doctl completion fish)
 fish_vi_key_bindings
 
 starship init fish | source
+
+source /usr/local/opt/asdf/asdf.fish

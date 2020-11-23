@@ -1,6 +1,7 @@
 tap "dart-lang/dart"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
@@ -32,6 +33,8 @@ brew "git"
 brew "unbound"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
+# Rainbows and unicorns in your console!
+brew "lolcat"
 # Clone of ls with colorful output, file type icons, and more
 brew "lsd"
 # Mac App Store command-line interface
@@ -42,6 +45,10 @@ brew "neovim"
 brew "nvm"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Version control system designed to be a better CVS
+brew "subversion"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
@@ -50,20 +57,33 @@ brew "tree"
 brew "yadm"
 # The Dart SDK
 brew "dart-lang/dart/dart"
+cask "1password"
 cask "alacritty"
 cask "android-sdk"
 cask "docker"
 cask "firefox"
-cask "flutter"
+cask "font-fira-code"
+cask "font-fira-code-nerd-font"
+cask "font-fira-mono"
+cask "font-fira-mono-for-powerline"
 cask "font-jetbrains-mono"
+cask "google-chrome"
 cask "iterm2"
 cask "karabiner-elements"
 cask "keybase"
 cask "notion"
+cask "signal"
 cask "slack"
 cask "slate"
 cask "spotify"
+cask "telegram"
 cask "telegram-desktop"
 cask "visual-studio-code"
+cask "zoomus"
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "Todoist", id: 585829637
 mas "Xcode", id: 497799835
