@@ -2,3 +2,4 @@ golang 1.15.3
 java corretto-15.0.1.9.1
 nodejs 15.2.1
 python 3.9.0
+vault 1.5.5

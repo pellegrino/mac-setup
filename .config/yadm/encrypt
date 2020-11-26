@@ -1,3 +1,4 @@
 .ssh/id_rsa
 .aws/credentials
 Library/Application Support/doctl/config.yaml
+.config/fish/conf.d/secrets.fish
