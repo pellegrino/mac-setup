@@ -3,3 +3,5 @@ java corretto-15.0.1.9.1
 nodejs 15.2.1
 python 3.9.0
 vault 1.5.5
+kubectl 1.19.4
+waypoint 0.1.5
