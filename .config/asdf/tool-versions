@@ -5,3 +5,5 @@ python 3.9.0
 vault 1.5.5
 kubectl 1.19.4
 waypoint 0.1.5
+skaffold 1.17.1
+doctl 1.54.0
