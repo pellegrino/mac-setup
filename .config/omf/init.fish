@@ -16,11 +16,11 @@ set -x PATH $PATH $HOME/bin \
 	$HOME/.local/bin \
 	$FLUTTER_PATH/.pub-cache/bin
 ### Init scripts
-eval (direnv hook fish)
-
-eval (doctl completion fish)
-fish_vi_key_bindings
-
 starship init fish | source
 
 source /usr/local/opt/asdf/asdf.fish
+
+eval (direnv hook fish)
+
+eval (doctl completion fish)
+

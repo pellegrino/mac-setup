@@ -1,7 +1,9 @@
 [user]
-	email = pellegrino@linux.com
+	email = vpellegrino@seatgeek.com
 	name = Vitor Pellegrino
 [pull]
 	ff = only
 [core]
 	excludesfile = ~/.gitignore
+[include]
+	path = ~/.config/git/gitconfig-secrets

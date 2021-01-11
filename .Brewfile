@@ -43,6 +43,8 @@ brew "mas"
 brew "neovim"
 # Manage multiple Node.js versions
 brew "nvm"
+# Efficient rsh-like utility, for using hosts in parallel
+brew "pdsh"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
 # Search tool like grep and The Silver Searcher
@@ -70,6 +72,7 @@ cask "font-fira-mono-for-powerline"
 cask "font-jetbrains-mono"
 cask "google-chrome"
 cask "iterm2"
+cask "jetbrains-toolbox"
 cask "karabiner-elements"
 cask "keybase"
 cask "notion"
@@ -79,7 +82,7 @@ cask "slate"
 cask "spotify"
 cask "telegram-desktop"
 cask "visual-studio-code"
-cask "zoomus"
+cask "zoom"
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
