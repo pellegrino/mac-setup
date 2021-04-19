@@ -1,3 +1,6 @@
 .ssh/id_rsa
+.aws/credentials
 Library/Application Support/doctl/config.yaml
 .ssh/id_rsa_personal_infra
+.config/fish/conf.d/secrets.fish
+.config/git/gitconfig-secrets

@@ -1,6 +1,10 @@
 # mac-setup
 New Mac setup. Using YADM for managing the dotfiles. Starting from scratch 
 
+## Contents
+- Fish shell
+- Asdf 
+
 ## How to install
 
 - Install brew:
@@ -18,3 +22,10 @@ brew install yadm
 ```
 yadm clone git@github.com:pellegrino/mac-setup -b main
 ```
+
+### Fonts
+
+- Fira Code
+- JetBrains Mono
+
+

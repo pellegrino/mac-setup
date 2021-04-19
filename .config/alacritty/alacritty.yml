@@ -11,7 +11,7 @@ env:
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
   TERM: xterm-256color
-  # TERM: alacritty
+ # TERM: alacritty
 
 window:
   # Window dimensions (changes require restart)
@@ -39,7 +39,7 @@ window:
   #  y: 0
 
   # Spread additional padding evenly around the terminal content.
-  #dynamic_padding: false
+  dynamic_padding: true
 
   # Window decorations
   #
@@ -61,7 +61,7 @@ window:
   #
   # Values for `startup_mode` (macOS only):
   #   - SimpleFullscreen
-  startup_mode: SimpleFullscreen
+  startup_mode: Fullscreen
 
   # Window title
   title: Alacritty
@@ -106,10 +106,10 @@ font:
     #   - (macOS) Meslo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Meslo Nerd Font
+    family: Fira Code
 
     # The `style` can be specified to pick a specific face.
-    #style: Regular
+    style: Regular
 
   # Bold font face
   bold:
@@ -117,7 +117,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Meslo Nerd Font
+    family: Fira Code
 
     # The `style` can be specified to pick a specific face.
     style: Bold
@@ -128,7 +128,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Meslo Nerd Font
+    family: Fira Code
 
     # The `style` can be specified to pick a specific face.
     style: Italic
@@ -139,7 +139,7 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Meslo Nerd Font
+    family: Fira Code
 
     # The `style` can be specified to pick a specific face.
     style: Bold Italic
@@ -570,23 +570,11 @@ draw_bold_text_with_bright_colors: true
 # If the same trigger is assigned to multiple actions, all of them are executed
 # at once.
 key_bindings:
-  #  (Windows, Linux, and BSD only)
-  # - { key: V,        mods: Control|Shift, action: Paste            }
-  # - { key: C,        mods: Control|Shift, action: Copy             }
-  # - { key: Insert,   mods: Shift,         action: PasteSelection   }
-  # - { key: Key0,     mods: Control,       action: ResetFontSize    }
-  # - { key: Equals,   mods: Control,       action: IncreaseFontSize }
-  # - { key: Add,      mods: Control,       action: IncreaseFontSize }
-  # - { key: Subtract, mods: Control,       action: DecreaseFontSize }
-  # - { key: Minus,    mods: Control,       action: DecreaseFontSize }
-
-  # (Windows only)
-  #- { key: Return,   mods: Alt,           action: ToggleFullscreen }
 
   # (macOS only)
   - { key: Key0, mods: Command, action: ResetFontSize }
+  #- { key: Plus, mods: Command, action: IncreaseFontSize }
   - { key: Equals, mods: Command, action: IncreaseFontSize }
-  - { key: Add, mods: Command, action: IncreaseFontSize }
   - { key: Minus, mods: Command, action: DecreaseFontSize }
   - { key: K, mods: Command, action: ClearHistory }
   - { key: K, mods: Command, chars: "\x0c" }
