@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+antibody bundle < $HOME/.config/zsh/plugins.txt > $HOME/.config/zsh/zshrc.d/plugins.compiled.zsh

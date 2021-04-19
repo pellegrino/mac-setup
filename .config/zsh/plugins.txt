@@ -1,0 +1,19 @@
+# this block is in alphabetic order
+caarlos0/ports kind:path
+caarlos0/zsh-git-fetch-merge kind:path
+caarlos0/zsh-git-sync kind:path
+caarlos0/zsh-mkc
+caarlos0/zsh-open-pr kind:path
+caarlos0/jvm
+mafredri/zsh-async
+rupa/z
+zsh-users/zsh-completions
+zsh-users/zsh-autosuggestions
+djui/alias-tips
+
+# these should be at last!
+robbyrussell/oh-my-zsh path:lib
+robbyrussell/oh-my-zsh path:themes/muse.zsh-theme
+zdharma/fast-syntax-highlighting
+zsh-users/zsh-history-substring-search
+
