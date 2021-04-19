@@ -4,6 +4,8 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+# Shell plugin manager
+brew "antibody"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
@@ -20,8 +22,6 @@ brew "direnv"
 brew "doctl"
 # CLI tool for quick access to files and directories
 brew "fasd"
-# User-friendly command-line shell for UNIX-like operating systems
-brew "fish"
 # Infamous electronic fortune-cookie generator
 brew "fortune"
 # Command-line fuzzy finder written in Go
@@ -56,6 +56,8 @@ brew "vault"
 brew "wget"
 # Yet Another Dotfiles Manager
 brew "yadm"
+# UNIX shell (command interpreter)
+brew "zsh"
 # The Dart SDK
 brew "dart-lang/dart/dart"
 # GPU-accelerated terminal emulator
