@@ -32,6 +32,8 @@ brew "git"
 brew "unbound"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Clone of ls with colorful output, file type icons, and more
 brew "lsd"
 # Mac App Store command-line interface
@@ -42,28 +44,50 @@ brew "neovim"
 brew "nvm"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
+# Tool to build, change, and version infrastructure
+brew "terraform"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Secures, stores, and tightly controls access to secrets
+brew "vault"
+# Internet file retriever
+brew "wget"
 # Yet Another Dotfiles Manager
 brew "yadm"
 # The Dart SDK
 brew "dart-lang/dart/dart"
+# GPU-accelerated terminal emulator
 cask "alacritty"
 cask "android-sdk"
+# App to build and share containerized applications and microservices
 cask "docker"
+# Web browser
 cask "firefox"
+# UI toolkit for building applications for mobile, web and desktop
 cask "flutter"
+# Typeface made for developers
 cask "font-jetbrains-mono"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# JetBrains tools manager
+cask "jetbrains-toolbox"
+# Keyboard customizer
 cask "karabiner-elements"
+# End-to-end encryption software
 cask "keybase"
+# App to write, plan, collaborate, and get organized
 cask "notion"
+# Instant messaging application focusing on security
+cask "signal"
+# Team communication and collaboration software
 cask "slack"
+# Window management application (replacement for Divvy/SizeUp/ShiftIt)
 cask "slate"
+# Music streaming service
 cask "spotify"
-cask "telegram-desktop"
+# Open-source code editor
 cask "visual-studio-code"
 mas "Todoist", id: 585829637
 mas "Xcode", id: 497799835
