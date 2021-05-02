@@ -20,7 +20,8 @@ starship init fish | source
 
 source /usr/local/opt/asdf/asdf.fish
 
+# Figure out a way to have everything inside a folder to be automatically inserted
+source $HOME/.config/fish/functions/kubectl_aliases.fish 
 eval (direnv hook fish)
 
 eval (doctl completion fish)
-
