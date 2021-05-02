@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# get the directory where this file is located
+export XDG_CONFIG_HOME="$HOME/.config"
+export ZSH_CACHE_DIR=`/usr/local/bin/antibody home`
+
+_custom_zsh_config_base="${${(%):-%x}:A:h}"
+
+for file ($_custom_zsh_config_base/zshrc.d/*.zsh(N)); do
+	source $file
+done

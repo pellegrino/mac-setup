@@ -1,10 +1,11 @@
 tap "dart-lang/dart"
 tap "homebrew/bundle"
 tap "homebrew/cask"
-tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+# Shell plugin manager
+brew "antibody"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
@@ -21,8 +22,6 @@ brew "direnv"
 brew "doctl"
 # CLI tool for quick access to files and directories
 brew "fasd"
-# User-friendly command-line shell for UNIX-like operating systems
-brew "fish"
 # Infamous electronic fortune-cookie generator
 brew "fortune"
 # Command-line fuzzy finder written in Go
@@ -33,8 +32,10 @@ brew "git"
 brew "unbound"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
-# Rainbows and unicorns in your console!
-brew "lolcat"
+# GNU grep, egrep and fgrep
+brew "grep"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Clone of ls with colorful output, file type icons, and more
 brew "lsd"
 # Mac App Store command-line interface
@@ -43,50 +44,54 @@ brew "mas"
 brew "neovim"
 # Manage multiple Node.js versions
 brew "nvm"
-# Efficient rsh-like utility, for using hosts in parallel
-brew "pdsh"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
-# Search tool like grep and The Silver Searcher
-brew "ripgrep"
-# Version control system designed to be a better CVS
-brew "subversion"
+# Tool to build, change, and version infrastructure
+brew "terraform"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Secures, stores, and tightly controls access to secrets
+brew "vault"
+# Internet file retriever
+brew "wget"
 # Yet Another Dotfiles Manager
 brew "yadm"
+# UNIX shell (command interpreter)
+brew "zsh"
 # The Dart SDK
 brew "dart-lang/dart/dart"
-cask "1password"
+# GPU-accelerated terminal emulator
 cask "alacritty"
 cask "android-sdk"
+# App to build and share containerized applications and microservices
 cask "docker"
-cask "element"
+# Web browser
 cask "firefox"
-cask "font-fira-code"
-cask "font-fira-code-nerd-font"
-cask "font-fira-mono"
-cask "font-fira-mono-for-powerline"
+# UI toolkit for building applications for mobile, web and desktop
+cask "flutter"
+# Typeface made for developers
 cask "font-jetbrains-mono"
-cask "google-chrome"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# JetBrains tools manager
 cask "jetbrains-toolbox"
+# Keyboard customizer
 cask "karabiner-elements"
+# End-to-end encryption software
 cask "keybase"
+# App to write, plan, collaborate, and get organized
 cask "notion"
+# Instant messaging application focusing on security
 cask "signal"
+# Team communication and collaboration software
 cask "slack"
+# Window management application (replacement for Divvy/SizeUp/ShiftIt)
 cask "slate"
+# Music streaming service
 cask "spotify"
-cask "telegram-desktop"
+# Open-source code editor
 cask "visual-studio-code"
-cask "zoom"
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 mas "Todoist", id: 585829637
 mas "Xcode", id: 497799835
