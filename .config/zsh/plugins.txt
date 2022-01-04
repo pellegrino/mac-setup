@@ -14,6 +14,5 @@ djui/alias-tips
 # these should be at last!
 robbyrussell/oh-my-zsh path:lib
 robbyrussell/oh-my-zsh path:themes/muse.zsh-theme
-zdharma/fast-syntax-highlighting
+zdharma-continuum/fast-syntax-highlighting
 zsh-users/zsh-history-substring-search
-
