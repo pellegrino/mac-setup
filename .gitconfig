@@ -4,6 +4,8 @@
 [pull]
 	ff = only
 [core]
-	excludesfile = ~/.gitignore
+	excludesFile = ~/.gitignore
 [include]
 	path = ~/.config/git/gitconfig-secrets
+[git]
+	excludesfile = /Users/vitor/.gitignore
