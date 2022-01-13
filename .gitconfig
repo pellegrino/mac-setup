@@ -9,3 +9,5 @@
 	path = ~/.config/git/gitconfig-secrets
 [git]
 	excludesfile = /Users/vitor/.gitignore
+[commit]
+	template = /Users/vitor/.gitmessage
