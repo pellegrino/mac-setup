@@ -2,7 +2,7 @@
 New Mac setup. Using YADM for managing the dotfiles. Starting from scratch 
 
 ## Contents
-- Fish shell
+- Zsh shell
 - Asdf 
 
 ## How to install
