@@ -1,0 +1,5 @@
+alias k='kubectl'
+alias ns='kubie ns'
+alias ctx='kubie ctx'
+alias r='rails'
+alias kg='kubectl get'
