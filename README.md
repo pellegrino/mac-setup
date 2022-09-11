@@ -1,31 +1,25 @@
-# mac-setup
-New Mac setup. Using YADM for managing the dotfiles. Starting from scratch 
+<p align="center"><img src="https://raw.githubusercontent.com/gobuffalo/buffalo/main/logo.svg" width="360"></p>
 
-## Contents
-- Fish shell
-- Asdf 
+<p align="center">
+<a href="https://pkg.go.dev/github.com/gobuffalo/cli"><img src="https://pkg.go.dev/badge/github.com/gobuffalo/cli" alt="PkgGoDev"></a>
+<img src="https://github.com/gobuffalo/cli/workflows/Tests/badge.svg" alt="Tests Status" />
+<a href="https://goreportcard.com/report/github.com/gobuffalo/cli"><img src="https://goreportcard.com/badge/github.com/gobuffalo/cli" alt="Go Report Card" /></a>
+</p>
 
-## How to install
+# Buffalo CLI
 
-- Install brew:
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-``` 
+This is the repo for the Buffalo CLI. The Buffalo CLI is a tool to develop, test and deploy your Buffalo applications.
 
-- Install YADM
+## Installation
 
-```
-brew install yadm
-```
+To install the Buffalo CLI you can run the following command:
 
-- Clone mac setup 
-```
-yadm clone git@github.com:pellegrino/mac-setup -b main
+```bash
+go install github.com/gobuffalo/cli/cmd/buffalo@latest
 ```
 
-### Fonts
+<!-- Installing the Buffalo CLI requires Go 1.16 or newer as it depends heavily on the embed package. Once you have ensured you installed Go 1.16 or newer,  -->
 
-- Fira Code
-- JetBrains Mono
+## Usage
 
-
+Once installed, the Buffalo CLI can be used by invoking the `buffalo` command. To know more about the available commands, run the `buffalo help` command. or you can also get details on a specific command by running `buffalo help <command>`.

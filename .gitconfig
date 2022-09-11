@@ -1,5 +1,5 @@
 [user]
-	email = vpellegrino@seatgeek.com
+	email = vitor@pellegrino.io
 	name = Vitor Pellegrino
 [pull]
 	ff = only
@@ -9,3 +9,5 @@
 	path = ~/.config/git/gitconfig-secrets
 [git]
 	excludesfile = /Users/vitor/.gitignore
+[init]
+	defaultBranch = main
