@@ -1,10 +1,8 @@
 <p align="center"><img src="https://raw.githubusercontent.com/gobuffalo/buffalo/main/logo.svg" width="360"></p>
 
-<p align="center">
-<a href="https://pkg.go.dev/github.com/gobuffalo/cli"><img src="https://pkg.go.dev/badge/github.com/gobuffalo/cli" alt="PkgGoDev"></a>
-<img src="https://github.com/gobuffalo/cli/workflows/Tests/badge.svg" alt="Tests Status" />
-<a href="https://goreportcard.com/report/github.com/gobuffalo/cli"><img src="https://goreportcard.com/badge/github.com/gobuffalo/cli" alt="Go Report Card" /></a>
-</p>
+## Contents
+- Zsh shell
+- Asdf 
 
 # Buffalo CLI
 

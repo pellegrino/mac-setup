@@ -1,5 +1,5 @@
 [user]
-	email = vitor@pellegrino.io
+	email = pellegrino@linux.com
 	name = Vitor Pellegrino
 [pull]
 	ff = only
@@ -7,7 +7,7 @@
 	excludesFile = ~/.gitignore
 [include]
 	path = ~/.config/git/gitconfig-secrets
-[git]
-	excludesfile = /Users/vitor/.gitignore
 [init]
 	defaultBranch = main
+[commit]
+	template = /Users/vitor/.gitmessage
