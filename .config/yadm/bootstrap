@@ -13,6 +13,11 @@ if [ -f "$HOME/.Brewfile" ]; then
   brew bundle --global
 fi
 
+if [ ! -d "$HOME/.tmux/plugins/tpm" ]; then
+  echo ">>> Installing tmux tpm"
+  git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm 
+fi 
+
 
 if [ ! -f "/usr/local/bin/starship" ]; then
   echo "Installing starship (shell prompt)"

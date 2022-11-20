@@ -8,8 +8,6 @@ tap "homebrew/core"
 brew "antibody"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
-# Extendable version manager with support for Ruby, Node.js, Erlang & more
-brew "asdf"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Configurable talking characters in ASCII art
