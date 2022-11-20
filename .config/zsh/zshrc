@@ -9,5 +9,3 @@ _custom_zsh_config_base="${${(%):-%x}:A:h}"
 for file ($_custom_zsh_config_base/zshrc.d/*.zsh(N)); do
 	source $file
 done
-
-echo -e "\n. $(brew --prefix asdf)/libexec/asdf.sh" >> ${ZDOTDIR:-~}/.zshrc

@@ -2,3 +2,4 @@
 .config/zsh/zshrc.d/plugins.compiled.zsh
 .idea
 .envrc
+.DS_Store
