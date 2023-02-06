@@ -3,3 +3,4 @@
 .idea
 .envrc
 .DS_Store
+.env

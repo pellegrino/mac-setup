@@ -1,5 +1,6 @@
 bindkey -e 
 fath=($fpath ~/.zsh/completion)
+export LANG=en_US.UTF-8
 
 autoload -Uz compinit
 compinit
@@ -16,3 +17,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 source "$HOME/.cargo/env"
 
 export PATH="/usr/local/opt/ruby/bin:$PATH"
+
+export PIPENV_VENV_IN_PROJECT=1 
+source /Users/vitor/.config/op/plugins.sh
