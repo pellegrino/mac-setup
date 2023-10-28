@@ -20,3 +20,10 @@ export PATH="/usr/local/opt/ruby/bin:$PATH"
 
 export PIPENV_VENV_IN_PROJECT=1 
 source /Users/vitor/.config/op/plugins.sh
+
+# bun completions
+[ -s "/Users/vitor/.bun/_bun" ] && source "/Users/vitor/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
