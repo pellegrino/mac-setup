@@ -7,3 +7,6 @@
 [submodule ".asdf"]
 	path = .asdf
 	url = git@github.com:asdf-vm/asdf.git
+[submodule "/Users/vitor/.config/nvim"]
+	path = /Users/vitor/.config/nvim
+	url = git@github.com:NvChad/NvChad.git
