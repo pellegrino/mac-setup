@@ -1,3 +1,6 @@
 [submodule "tools/adr-tools"]
 	path = tools/adr-tools
 	url = https://github.com/npryce/adr-tools
+[submodule ".tmux"]
+	path = .tmux
+	url = git@github.com:gpakosz/.tmux.git
