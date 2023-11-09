@@ -5,6 +5,7 @@ export LANG=en_US.UTF-8
 autoload -Uz compinit
 compinit
 
+export EDITOR=nvim
 export PIPENV_VENV_IN_PROJECT=1 
 
 source "$HOME/.config/zsh/zshrc"
