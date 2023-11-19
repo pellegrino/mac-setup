@@ -61,7 +61,7 @@ window:
   #
   # Values for `startup_mode` (macOS only):
   #   - SimpleFullscreen
-  startup_mode: SimpleFullscreen
+  startup_mode: Fullscreen
 
   # Window title
   title: Alacritty
@@ -584,8 +584,8 @@ key_bindings:
   - { key: M, mods: Command, action: Minimize }
   - { key: Q, mods: Command, action: Quit }
   - { key: W, mods: Command, action: Quit }
-  #- { key: Return, mods: Command|Control, action: ToggleFullscreen }
-  - { key: Return, mods: Command, action: ToggleSimpleFullscreen }
+  - { key: Return, mods: Command|Control, action: ToggleFullscreen }
+  # - { key: Return, mods: Command, action: ToggleSimpleFullscreen }
   - { key: Paste, action: Paste }
   - { key: Copy, action: Copy }
   - { key: L, mods: Control, action: ClearLogNotice }
