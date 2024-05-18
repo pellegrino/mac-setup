@@ -1,0 +1,1 @@
+codeium.lua##os.Darwin,class.Personal

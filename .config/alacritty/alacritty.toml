@@ -195,5 +195,5 @@ multiplier = 3
 [window]
 decorations = "full"
 dynamic_padding = true
-startup_mode = "Fullscreen"
+startup_mode = "Windowed"
 title = "Alacritty"

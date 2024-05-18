@@ -1,5 +1,4 @@
 return {
-  { "fatih/vim-go" },
   {
     "mrcjkb/rustaceanvim",
     version = "^4",
